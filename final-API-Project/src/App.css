@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.Nav {
+  width: 100%;
+  display: flex;
+  /* background-color: aliceblue; */
+  /* justify-content: space-between; */
+  margin-top: 2em;
+  gap: 120px;
+}
+
+footer{
+  margin-left: 10%;
+}

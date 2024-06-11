@@ -1,0 +1,22 @@
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.wedding-service-card {
+  padding: 10px;
+  border: 1px solid rgb(220,220,220);
+  border-radius: 10px;
+  background-color: rgb(241,242,244);
+  width: 17rem;
+  text-align: center;
+}
+
+
+.image{
+  /* padding: 20; */
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #555;
+  display: grid;
+  color: aliceblue;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.input {
+  width: 90%;
+  line-height: 1.42857143;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+input {
+  height: 30px;
+  width: 90%;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  background-color: #fafafa;
+  border: 1px solid rebeccapurple;
+  /* -webkit-appearance: button;    */
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: bold;
+  font-size: 14px;
+  color: rebeccapurple;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 15px 0px 0px 0px;
+}
+
+
+button:active {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.edit {
+  cursor: pointer;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  background-color: #fafafa;
+  border: 1px solid rebeccapurple;
+  /* -webkit-appearance: button; */
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: bold;
+  font-size: 14px;
+  color: rebeccapurple;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 15px 0px 0px 0px;
+}
+
+
+.edit:active {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+
+ol {
+  font-size: 14px;
+  /* line-height: 1.42857143; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 20px;
+  text-align: left;
+  padding: 5px;
+  width: 97%;
+
+}
+
+li {
+  margin: 10px 10px 10px 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 25px;
+}
